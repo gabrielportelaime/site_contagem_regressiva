@@ -20,14 +20,14 @@ body {
 }
 
 .countdown-title {
-    font-family: 'Poppins', sans-serif; /* Alterado para usar a fonte Poppins */
-    font-size: 3rem;
-    font-weight: 600; /* Ajustado para um peso de fonte mais forte */
+    font-family: 'Poppins', sans-serif; /* Usando a fonte Poppins */
+    font-size: 4rem; /* Aumentando o tamanho da fonte */
+    font-weight: 600; /* Ajustando o peso da fonte */
     margin-bottom: 30px;
     background: linear-gradient(135deg, #6e7dff, #4b6ef1);
     -webkit-background-clip: text;
     color: transparent;
-    text-shadow: 0 0 10px rgba(255, 255, 255, 0.6), 0 0 20px rgba(255, 255, 255, 0.6);
+    text-shadow: none; /* Removido o efeito de glow */
 }
 
 .countdown-container {
@@ -78,20 +78,4 @@ body {
 
 .add-time-button:hover {
     background: linear-gradient(135deg, #4b6ef1, #6e7dff);
-}
-
-@keyframes glow {
-    0% {
-        text-shadow: 0 0 5px rgba(255, 255, 255, 0.6), 0 0 10px rgba(255, 255, 255, 0.6);
-    }
-    50% {
-        text-shadow: 0 0 15px rgba(255, 255, 255, 0.8), 0 0 30px rgba(255, 255, 255, 0.8);
-    }
-    100% {
-        text-shadow: 0 0 5px rgba(255, 255, 255, 0.6), 0 0 10px rgba(255, 255, 255, 0.6);
-    }
-}
-
-.time {
-    animation: glow 1.5s ease-in-out infinite;
 }
