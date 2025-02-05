@@ -25,6 +25,7 @@ body {
     font-weight: 600; /* Ajustando o peso da fonte */
     margin-bottom: 30px;
     background: linear-gradient(135deg, #6e7dff, #4b6ef1);
+    background-clip: text;
     -webkit-background-clip: text;
     color: transparent;
     text-shadow: none; /* Removido o efeito de glow */
